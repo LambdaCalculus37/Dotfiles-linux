@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="17"/>
+        <value type="int" value="16"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="18"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="/home/robert/Pictures/Icons/Debian-icon.png"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="sabnzbd.py"/>
+        <value type="string" value="wi-fi network connection “homeworld” active: homeworld (58%)"/>
+        <value type="string" value="wi-fi network connection “trenzalore” active: trenzalore (69%)"/>
+        <value type="string" value="wi-fi network connection “homeworld_ext” active: homeworld_ext (45%)"/>
+        <value type="string" value="ibus panel"/>
+        <value type="string" value="wi-fi network connection “trenzalore_ext” active: trenzalore_ext (55%)"/>
+        <value type="string" value="wi-fi network connection “trenzalore_ext” active: trenzalore_ext (51%)"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="wi-fi network connection “sandy_ext” active: sandy_ext (83%)"/>
+        <value type="string" value="claws-mail"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="keybase"/>
+        <value type="string" value="hexchat"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="private internet access"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="pcloud"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="acetoneiso"/>
+        <value type="string" value="TeamViewer"/>
+        <value type="string" value="Element1"/>
+        <value type="string" value="zoom "/>
+        <value type="string" value="pcloud1"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="Keybase1"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="linphone"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Mandelbulber"/>
+        <value type="string" value="privateinternetaccess"/>
+        <value type="string" value="KeePassXC"/>
+        <value type="string" value="Yubico Authenticator"/>
+        <value type="string" value="vlc"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance10287;chromium.instance117563;chromium.instance5340;chromium.instance5622;chromium.instance8247;chromium.instance9961;firefox.instance11217;firefox.instance11696;firefox.instance11800;firefox.instance119252;firefox.instance121773;firefox.instance12892;firefox.instance134060;firefox.instance13629;firefox.instance142001;firefox.instance149640;firefox.instance170266;firefox.instance173514;firefox.instance183109;firefox.instance191727;firefox.instance200677;firefox.instance234408;firefox.instance262650;firefox.instance294667;firefox.instance30546;firefox.instance348296;firefox.instance400052;firefox.instance413804;firefox.instance453235;firefox.instance481447;firefox.instance5454;firefox.instance5470;firefox.instance5517;firefox.instance5682;firefox.instance5743;firefox.instance5774;firefox.instance5977;firefox.instance6180;firefox.instance64921;firefox.instance6833;firefox.instance6939;firefox.instance725953;firefox.instance7381;firefox.instance74401;firefox.instance7637;firefox.instance7675;firefox.instance8025;firefox.instance8069;firefox.instance8123;firefox.instance8439;firefox.instance8471;firefox.instance8491;firefox.instance8745;firefox.instance9036;firefox.instance9364;firefox.instance9504;rhythmbox;vlc"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="timezone" type="string" value="America/New_York"/>
+      <property name="digital-format" type="string" value="%T"/>
+      <property name="digital-time-format" type="string" value="%T"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Sans 12"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="+hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+      <property name="button-title" type="uint" value="1"/>
+    </property>
+    <property name="plugin-16" type="string" value="cpugraph"/>
+    <property name="plugin-17" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Lyndhurst, Bergen County"/>
+        <property name="latitude" type="string" value="40.812025"/>
+        <property name="longitude" type="string" value="-74.124282"/>
+      </property>
+      <property name="msl" type="int" value="11"/>
+      <property name="timezone" type="string" value="America/New_York"/>
+      <property name="offset" type="string" value="-04:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="1"/>
+        <property name="pressure" type="int" value="2"/>
+        <property name="windspeed" type="int" value="1"/>
+        <property name="precipitation" type="int" value="1"/>
+        <property name="altitude" type="int" value="1"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+        <property name="label1" type="int" value="5"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="xkb"/>
+  </property>
+</channel>
